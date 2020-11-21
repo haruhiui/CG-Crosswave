@@ -9,3 +9,6 @@ mingw32-make run TARGET=hello_world.cpp
 
 2. 可以给src文件夹下的每个文件单独生成可执行文件（TARGET是源文件，EXECUTABLE是可执行文件名）：
 make run TARGET=xx.cpp EXECUTABLE=xx
+
+主要参考：
+https://learnopengl-cn.github.io/
