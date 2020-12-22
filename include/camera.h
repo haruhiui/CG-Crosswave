@@ -26,7 +26,8 @@ const float ZOOM        =  45.0f;
 // An abstract camera class that processes input and calculates the corresponding Euler Angles, Vectors and Matrices for use in OpenGL
 class Camera
 {
-public:
+
+public: 
     // camera Attributes
     glm::vec3 Position;
     glm::vec3 Front;
@@ -41,6 +42,7 @@ public:
     float MouseSensitivity;
     float Zoom;
 
+public:
     // constructor with vectors
     Camera(glm::vec3 position = glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f), float yaw = YAW, float pitch = PITCH) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
     {
@@ -50,6 +52,7 @@ public:
         Pitch = pitch;
         updateCameraVectors();
     }
+
     // constructor with scalar values
     Camera(float posX, float posY, float posZ, float upX, float upY, float upZ, float yaw, float pitch) : Front(glm::vec3(0.0f, 0.0f, -1.0f)), MovementSpeed(SPEED), MouseSensitivity(SENSITIVITY), Zoom(ZOOM)
     {
@@ -58,6 +61,21 @@ public:
         Yaw = yaw;
         Pitch = pitch;
         updateCameraVectors();
+    }
+
+    void SetMovementSpeed(float speed) 
+    { 
+        MovementSpeed = speed; 
+    }
+
+    void SetMouseSensitivity(float sensitivity) 
+    { 
+        MouseSensitivity = sensitivity; 
+    }
+
+    float GetZoom() 
+    {
+        return Zoom; 
     }
 
     // returns the view matrix calculated using Euler Angles and the LookAt Matrix

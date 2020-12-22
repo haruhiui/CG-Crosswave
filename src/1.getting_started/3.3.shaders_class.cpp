@@ -47,7 +47,7 @@ int main()
 
     // build and compile our shader program
     // ------------------------------------
-    Shader ourShader("src/3.3.shader.vs", "src/3.3.shader.fs"); // you can name your shader files however you like
+    Shader ourShader("src/1.getting_started/3.3.shader.vs", "src/1.getting_started/3.3.shader.fs"); // you can name your shader files however you like
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
