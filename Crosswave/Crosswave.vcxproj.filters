@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\basic">
+      <UniqueIdentifier>{43ef22e8-c18e-4084-b819-a98c3eabb29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\render">
+      <UniqueIdentifier>{1fd9feb1-0f57-4e96-9247-8c3aeece2d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader">
+      <UniqueIdentifier>{336bf062-895f-47c6-bda7-6c8d1dfc0407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bullet">
+      <UniqueIdentifier>{455453ef-14fa-4bab-ae21-086c2bf737e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\figure">
+      <UniqueIdentifier>{86a6a6f0-900b-45b9-961c-ebf1173bf84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sea">
+      <UniqueIdentifier>{3f8a67b1-5dec-485b-afb4-f2566ebaed75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeRenderable.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereRenderable.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemaps.h">
+      <Filter>头文件\render</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFigure.h">
+      <Filter>头文件\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Manjuu.h">
+      <Filter>头文件\figure</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorClasses.h">
+      <Filter>头文件\sea</Filter>
+    </ClInclude>
+    <ClInclude Include="fluid.h">
+      <Filter>头文件\sea</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cube.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="cube.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="cubemaps.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="cubemaps.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="skybox.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="skybox.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="general_bullet.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="general_bullet.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.bloom.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.bloom.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.bloom_final.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.bloom_final.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.blur.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.blur.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="7.light_box.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="model.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="model.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="cycle.vs">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="cycle.fs">
+      <Filter>源文件\shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

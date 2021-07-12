@@ -1,0 +1,34 @@
+﻿  glad.c
+  TestAim.cpp
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Shader.h(58,34): warning C4101: “e”: 未引用的局部变量
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: “APIENTRY”: 宏重定义
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\include\glad\glad.h(32): message : 参见“APIENTRY”的前一个定义
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\util.h(279,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Object.h(88,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Object.h(135,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Mesh.h(87,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Renderable.h(121,1): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\SimpleBullet.h(40,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\SimpleBullet.h(69,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\SimpleFigure.h(35,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\SimpleFigure.h(74,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Manjuu.h(78,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Manjuu.h(206,43): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\Manjuu.h(255,18): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(166,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(239,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(241,12): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(241,32): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(244,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(252,41): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(253,38): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(475,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(476,19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(480,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(481,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(482,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(483,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(498,28): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Home\Studio\OpenGL\Crosswave\Crosswave\Crosswave\TestAim.cpp(516,9): warning C4305: “参数”: 从“double”到“float”截断
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  Crosswave.vcxproj -> D:\Home\Studio\OpenGL\Crosswave\Crosswave\x64\Debug\Crosswave.exe
