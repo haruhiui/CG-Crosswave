@@ -1,6 +1,6 @@
 # CG-Crosswave
 
-计算机图形学课程大作业，3D弹幕射击游戏游戏Crosswave。
+计算机图形学课程大作业，3D弹幕射击游戏Crosswave。
 
 特色：
 1. 使用Assimp导入角色模型。
